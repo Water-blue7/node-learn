@@ -42,7 +42,7 @@ const fs = require('fs');
 // fs.rm('./a', { recursive: true }, err => {
 //     if (err) {
 //         console.log('删除失败');
-//         return
+//         return;
 //     }
 //     console.log('删除成功');
 // });

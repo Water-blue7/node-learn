@@ -10,17 +10,17 @@ const server = http.createServer((req, res) => {
     console.log(pathname);
     if (pathname === '/') {
         // 提取文件内容
-        let html = fs.readFileSync(__dirname + '/html/20-index.html');
+        let html = fs.readFileSync(__dirname + '/20-index.html');
         // 响应体
         res.end(html);
     } else if (pathname === '/20-index.css') {
         // 提取文件内容
-        let css = fs.readFileSync(__dirname + '/html/20-index.css');
+        let css = fs.readFileSync(__dirname + '/20-index.css');
         // 响应体
         res.end(css);
     } else if (pathname === '/20-index.js') {
         // 提取文件内容
-        let js = fs.readFileSync(__dirname + '/html/20-index.js');
+        let js = fs.readFileSync(__dirname + '/20-index.js');
         // 响应体
         res.end(js);
     } else {

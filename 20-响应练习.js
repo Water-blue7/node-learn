@@ -15,14 +15,14 @@ const server = http.createServer((req, res) => {
         res.end(html);
     } else if (pathname === '/20-index.css') {
         // 提取文件内容
-        let html = fs.readFileSync(__dirname + '/html/20-index.css');
+        let css = fs.readFileSync(__dirname + '/html/20-index.css');
         // 响应体
-        res.end(html);
+        res.end(css);
     } else if (pathname === '/20-index.js') {
         // 提取文件内容
-        let html = fs.readFileSync(__dirname + '/html/20-index.js');
+        let js = fs.readFileSync(__dirname + '/html/20-index.js');
         // 响应体
-        res.end(html);
+        res.end(js);
     } else {
         res.statusCode = 404;
         res.end('<h1>404 NOT FOUND</h1>');

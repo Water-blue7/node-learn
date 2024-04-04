@@ -1,0 +1,17 @@
+td {
+    padding: 20px 40px;
+}
+
+/* odd奇数 even偶数 */
+table tr:nth-child(odd) {
+    background-color: #aef;
+}
+
+table tr:nth-child(even) {
+    background-color: #fcb;
+}
+
+table,
+td {
+    border-collapse: collapse;
+}

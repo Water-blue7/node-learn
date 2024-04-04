@@ -1,0 +1,1 @@
+module.exports = '我只是index.js,如果main属性或者package.json不存在，就默认导入我';

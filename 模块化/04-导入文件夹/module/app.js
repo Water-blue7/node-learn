@@ -1,0 +1,1 @@
+module.exports = '我只是一个app.js';

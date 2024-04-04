@@ -5,25 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        td {
-            padding: 20px 40px;
-        }
-
-        /* odd奇数 even偶数 */
-        table tr:nth-child(odd) {
-            background-color: #aef;
-        }
-
-        table tr:nth-child(even) {
-            background-color: #fcb;
-        }
-
-        table,
-        td {
-            border-collapse: collapse;
-        }
-    </style>
+    <link rel="stylesheet" href="./20-index.css">
 </head>
 
 <body>
@@ -49,15 +31,7 @@
             <td>hello</td>
         </tr>
     </table>
-    <script>
-        // 获取所有的td
-        let tds = document.querySelectorAll('td');
-        tds.forEach(item => {
-            item.onclick = function () {
-                this.style.background = '#222';
-            }
-        })
-    </script>
+    <script src="./20-index.js"></script>
 </body>
 
 </html>

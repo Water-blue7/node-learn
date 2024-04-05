@@ -40,3 +40,14 @@ npm r <packagename>
 npm run server
 npm start
 ```
+
+#### express脚手架
+
+```shell
+# 安装
+npm i -g express-generator
+
+# 使用
+express -e [fileName]
+```
+
